@@ -1,43 +1,17 @@
 body {
     background-color: gainsboro;
-}
-h1 {
-    margin: 7%;
-    text-align: center;
-    font-family: sans-serif;
-    font-size: 200%;
-    color: darkslategray;  
-
-    
-}
-p {
-    top: 100px;
+    z-index: 1;
 }
 
 
 /* Navigation Bar */
 header,
 header nav {
-    width: 100%;    
+    width: 100%;
     top: 0;
     left: 0;
+    z-index: 50;
 }
-
-div {
-    width: 500px;
-    height: 400px;
-    padding: 15px;
-    border: 5px solid rgb(15, 177, 218);    
-    position: relative;
-    top: 5%;
-    margin: 100px auto;
-    background-color: rgba(46, 30, 88, 0);
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: 500px;
-    overflow: auto;
-
-  }
 
 div a {
     left: 1%;
@@ -116,4 +90,58 @@ header nav ul > li > ul > li > a{
   left: 1%;
   margin-top: 10px;
  
+}
+
+
+/* Login Form */
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: rgba(25, 91, 177, 0.5);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
 }

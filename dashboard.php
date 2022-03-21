@@ -42,7 +42,7 @@
             <li><a href="http://www.project-3.nl/archief.php">Beets</a></li>
             <li><a href="http://www.project-3.nl/dashboard.php">Dashboard</a></li>
             <li><a href="http://www.project-3.nl/login.php">Login</a></li>
-            <li><a href="http://www.project-3.nl/signup.php">Sign Up</a></li>
+            <li><a href="http://www.project-3.nl/register.php">Sign Up</a></li>
         </ul>
     </nav>
 </header> 

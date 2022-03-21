@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bitter</title>
     <link rel="shortcut icon" href="img/BitterLogoTitle.png">
-    <link rel="stylesheet" href="./login/login.css">
+    <link rel="stylesheet" href="./signup/signup.css">
 </head>
 <body>
 <header>
@@ -22,9 +22,26 @@
             <li><a href="http://www.project-3.nl/register.php">Sign Up</a></li>
         </ul>
     </nav>
-</header> 
+</header>
 
-<h2>Login Form</h2>
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-12 col-sm-6">
+            <form action="./index.php?content=register_script" method="post">
+                <div class="form-group">
+                    <label for="inputEmail">Vul hier uw e-mailadres in:</label>
+                    <input name="email" type="email" class="form-control" id="inputEmail" aria-describedat="">
+                    <small id="emailHelp" class="form-text text-muted">Uw privacy is gegarandeerd...</small> 
+                </div>
+                
+                <button type="submit" class="btn btn-warning btn-lg btn-block">Registreer</button>
+            </form> 
+    </div>
+    <div class="col-12 col-sm-6">
+        <img src="./img/vegetablejuice.jpg" alt="kersen" class="w-75 mx-auto d-block">
+    </div>
+   </div>
+   <h2>Login Form</h2>
 
 
 <form action="./login_script" method="post">
@@ -43,5 +60,7 @@
 
   </div>
 </form>
+</div>
+
 </body>
 </html>
